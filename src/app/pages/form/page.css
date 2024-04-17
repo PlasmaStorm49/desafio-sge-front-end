@@ -1,0 +1,91 @@
+.steps {
+  padding: 1rem 1rem;
+  color: black;
+  width: 80%;
+  display: grid;
+  place-items: center;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 4rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.nav {
+  font-weight: bold;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: flex;
+  border-radius: 1.5rem;
+  border: 1px solid black;
+  padding-left: 0px;
+}
+
+.nav li {
+  width: 50%;
+  padding: 1rem;
+  text-align: center;
+  transition: all 0.5s;
+  list-style-type: none;
+}
+
+.nav li:nth-child(1) {
+  border-bottom-left-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+}
+
+.nav li:nth-child(3) {
+  border-bottom-right-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+
+.nav li:hover {
+  background: #c985e0;
+}
+
+.modal {
+  font-weight: bold;
+  text-align: center;
+  width: 25vw;
+  background: white;
+  border-radius: 2vh;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#next:hover {
+  background-color: #a052ba;
+  color: white;
+}
+
+#submit:enabled {
+  background-color: #a052ba;
+  color: white;
+  border: 1px solid white;
+}
+#submit:hover:enabled {
+  background-color: #8b3aa6;
+}
+
+#errorMsg {
+  text-align: center;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}

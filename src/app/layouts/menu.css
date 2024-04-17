@@ -1,0 +1,18 @@
+.topmenu {
+  width: 100vw;
+  padding: 2vh 2vh 2vh 2vh;
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+.link {
+  font-family: sans-serif;
+  padding: 2vh 2vh 2vh 2vh;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.link:hover {
+  background-color: #c985e0;
+  color: white;
+}
