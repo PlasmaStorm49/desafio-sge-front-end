@@ -4,6 +4,6 @@ Devido a problemas na API um json usando os dados foi usado no lugar, o código 
 
 Para instalar as dependências utilize `npm install`
 
-Para iniciar a aplicação utilize `sh npm run dev`
+Para iniciar a aplicação utilize `npm run dev`
 
 
