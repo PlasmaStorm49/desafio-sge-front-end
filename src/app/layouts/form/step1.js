@@ -19,7 +19,7 @@ export default function Step1({
       return (
         setFormControl({
           error: true,
-          message: "O e-mail não está formatação correta (aaa@bbb.cc)",
+          message: "O e-mail não está na formatação correta (aaa@bbb.cc)",
           step: 1,
         }),
         setCompletion1(false)
